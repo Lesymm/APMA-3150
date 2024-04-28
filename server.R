@@ -1,6 +1,5 @@
 library(shiny)
 
-# Define server logic
 shinyServer(function(input, output, session) {
   observeEvent(input$submit, {
     output$distPlot <- renderPlot({
