@@ -29,7 +29,7 @@ shinyUI(fluidPage(
       ),
       helpText("Adjust parameters based on the selected distribution type."),
       actionButton("submit", "Update Distribution", class = "btn-primary btn-lg"),
-      tags$footer(style = "margin-top: 20px; color: #999;", "App created by Waseem Benamor")
+      tags$footer(style = "margin-top: 20px; color: #999;", "App created by Waseem Benamor and Mouad Elmellouki")
     ),
     mainPanel(
       tags$h3("Distribution Plot", class = "text-primary", style = "color: #002B5C;"), 
